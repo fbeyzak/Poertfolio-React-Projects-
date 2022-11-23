@@ -1,0 +1,8 @@
+@use "../../../assets/styles/All" as s;
+
+.primary  {
+    width: 500px;
+    height: 100px
+}
+
+@include s.primary_box;

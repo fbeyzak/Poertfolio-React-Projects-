@@ -1,0 +1,36 @@
+@use "../../assets/styles/All" as s;
+
+.container {
+    position: relative;
+    border : 1px solid s.$color-swatch-primary;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.search {
+    @include  s.flex(space-between , center , auto , row);
+   
+    
+}
+
+.start{
+    @include s.flex(flex-start , center , 8px , row);
+    padding: 8px;
+    width: 100%;
+}
+
+.input{
+    padding: 0;
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    &:focus-visible{
+        border: none;
+        outline: none;
+        
+    }
+    &:focus::placeholder{
+       color: transparent;
+    }
+    
+}

@@ -1,0 +1,39 @@
+@use "../../assets/styles/All" as s;
+
+
+.appointmentCard {
+    border-bottom: 1px solid s.$color-neutral-shades-400;
+    padding:  24px 0;
+    @include s.flex(space-between , flex-start , auto, row);
+    font-family: s.$font-primary;
+    position: relative;
+
+
+    &:hover{
+        background-color: s.$color-neutral-shades-200;
+    }
+
+    svg {
+        color: s.$color-primary-shades-200;
+        height: 2rem;
+        width: 2rem;
+       
+    }
+
+    
+}
+
+.smallTitle , h5{
+    font-weight: bold;
+   
+}
+
+h5{
+    color: s.$color-swatch-primary;
+
+}
+.notes{
+    color: s.$color-text-secondary;
+    padding-top: 8px;
+}
+

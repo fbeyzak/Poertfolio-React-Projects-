@@ -1,0 +1,423 @@
+$color-swatch-primary: rgba(76,47,255,1);
+$color-swatch-secondary: rgba(114,204,255,1);
+$color-swatch-territary: rgba(246,189,96,1);
+$color-swatch-success: rgba(165,232,133,1);
+$color-swatch-error: rgba(205,54,54,1);
+$color-swatch-white: rgba(253,253,253,1);
+$color-swatch-black: rgba(53,53,53,1);
+
+
+$color-primary-states-default: rgba(76,47,255,1);
+$color-primary-states-hover: rgba(55,28,221,1);
+$color-primary-states-focus: rgba(38,14,187,1);
+$color-primary-states-disabled: rgba(210,209,219,1);
+$color-primary-shades-900: rgba(12,0,85,1);
+$color-primary-shades-800: rgba(17,0,119,1);
+$color-primary-shades-700: rgba(24,3,153,1);
+$color-primary-shades-600: rgba(38,14,187,1);
+$color-primary-shades-500: rgba(55,28,221,1);
+$color-primary-shades-400: rgba(76,47,255,1);
+$color-primary-shades-300: rgba(116,94,255,1);
+$color-primary-shades-200: rgba(156,140,255,1);
+$color-primary-shades-100: rgba(197,187,255,1);
+$color-primary-shades-050: rgba(237,234,255,1);
+
+
+$color-secondary-states-default: rgba(114,204,255,1);
+$color-secondary-states-hover: rgba(57,182,255,1);
+$color-secondary-states-focus: rgba(26,170,254,1);
+$color-secondary-states-disabled: rgba(209,238,255,1);
+$color-secondary-shades-0: rgba(209,238,255,1);
+$color-secondary-shades-100: rgba(118,205,255,1);
+$color-secondary-shades-200: rgba(57,182,255,1);
+$color-secondary-shades-300: rgba(26,170,254,1);
+$color-secondary-shades-400: rgba(11,163,251,1);
+$color-secondary-shades-500: rgba(4,156,244,1);
+$color-secondary-shades-600: rgba(1,146,231,1);
+$color-secondary-shades-700: rgba(0,127,201,1);
+$color-secondary-shades-800: rgba(0,90,143,1);
+$color-secondary-shades-900: rgba(0,36,56,1);
+
+
+$color-territary-states-default: rgba(246,189,96,1);
+$color-territary-states-hover: rgba(253,181,63,1);
+$color-territary-states-focus: rgba(251,170,40,1);
+$color-territary-states-disabled: rgba(255,225,178,1);
+
+$color-territary-shades-0: rgba(255,243,224,1);
+$color-territary-shades-100: rgba(255,225,178,1);
+$color-territary-shades-200: rgba(255,208,133,1);
+$color-territary-shades-300: rgba(254,193,94,1);
+$color-territary-shades-400: rgba(253,181,63,1);
+$color-territary-shades-500: rgba(251,170,40,1);
+$color-territary-shades-600: rgba(245,160,23,1);
+$color-territary-shades-700: rgba(233,148,11,1);
+$color-territary-shades-800: rgba(210,131,3,1);
+$color-territary-shades-900: rgba(176,109,0,1);
+
+$color-text-default: rgba(0,0,0,0.850);
+$color-text-focus: rgba(0,0,0,1);
+$color-text-secondary: rgba(0,0,0,0.650);
+$color-text-territary: rgba(0,0,0,0.400);
+$color-text-disabled: rgba(0,0,0,0.200);
+
+
+$color-neutral-shades-050: rgba(255,255,255,1);
+$color-neutral-shades-100: rgba(250,250,250,1);
+$color-neutral-shades-200: rgba(242,242,242,1);
+$color-neutral-shades-300: rgba(228,228,228,1);
+$color-neutral-shades-400: rgba(209,209,209,1);
+$color-neutral-shades-500: rgba(182,182,182,1);
+$color-neutral-shades-600: rgba(148,148,148,1);
+$color-neutral-shades-700: rgba(104,104,104,1);
+$color-neutral-shades-750: rgba(74,74,74,1);
+$color-neutral-shades-800: rgba(53,53,53,1);
+$color-neutral-shades-900: rgba(0,0,0,1);
+
+
+$color-error-states-default: rgba(205,54,54,1);
+$color-error-states-hover: rgba(195,20,20,1);
+$color-error-states-focus: rgba(214,37,37,1);
+$color-error-states-disabled: rgba(252,192,192,1);
+$color-error-shades-0: rgba(255,245,245,1);
+$color-error-shades-100: rgba(252,192,192,1);
+$color-error-shades-200: rgba(247,141,141,1);
+$color-error-shades-300: rgba(240,97,97,1);
+$color-error-shades-400: rgba(229,63,63,1);
+$color-error-shades-500: rgba(214,37,37,1);
+$color-error-shades-600: rgba(195,20,20,1);
+$color-error-shades-700: rgba(170,9,9,1);
+$color-error-shades-800: rgba(142,3,3,1);
+$color-error-shades-900: rgba(112,0,0,1);
+
+
+$color-success-states-default: rgba(165,232,133,1);
+$color-success-states-hover: rgba(134,212,98,1);
+$color-success-states-focus: rgba(103,190,63,1);
+$color-success-states-disabled: rgba(220,231,215,1);
+
+$color-success-shades-0: rgba(217,255,199,1);
+$color-success-shades-100: rgba(172,233,144,1);
+$color-success-shades-200: rgba(134,212,98,1);
+$color-success-shades-300: rgba(103,190,63,1);
+$color-success-shades-400: rgba(79,169,37,1);
+$color-success-shades-500: rgba(61,147,21,1);
+$color-success-shades-600: rgba(47,126,10,1);
+$color-success-shades-700: rgba(36,104,4,1);
+$color-success-shades-800: rgba(27,83,1,1);
+$color-success-shades-900: rgba(19,61,0,1);
+
+$color-on-primary: rgba(255,255,255,1);
+$color-on-secondary: rgba(53,53,53,1);
+$color-on-territary: rgba(53,53,53,1);
+$color-on-error: rgba(253,253,253,1);
+$color-on-success: rgba(19,61,0,1);
+$color-on-background: rgba(253,253,253,1);
+
+$font-primary: "Lato";
+
+$radius-button : 4px;
+$border-width-default : 2px;
+// Text Styles
+@mixin typography-display-desktop {
+	font-size:2.5rem;
+	font-family:"Lato";
+	font-weight:500;
+	font-style:normal;
+	line-height:50px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-display-mobile {
+	font-size:2.25rem;
+	font-family:"Lato";
+	font-weight:500;
+	font-style:normal;
+	line-height:46px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-1-desktop {
+	font-size:2.5rem;
+	font-family:"Lato";
+	font-weight:700;
+	font-style:normal;
+	line-height:48px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-1-mobile {
+	font-size:2.25rem;
+	font-family:"Lato";
+	font-weight:700;
+	font-style:normal;
+	line-height:44px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-2-desktop {
+	font-size:2.25rem;
+	font-family:"Lato";
+	font-weight:700;
+	font-style:normal;
+	line-height:44px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-2-mobile {
+	font-size:2rem;
+	font-family:"Lato";
+	font-weight:700;
+	font-style:normal;
+	line-height:40px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-3-desktop {
+	font-size:2rem;
+	font-family:"Lato";
+	font-weight:700;
+	font-style:normal;
+	line-height:40px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-3-mobile {
+	font-size:1.75rem;
+	font-family:"Lato";
+	font-weight:700;
+	font-style:normal;
+	line-height:36px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-4-desktop {
+	font-size:1.75rem;
+	font-family:"Lato";
+	font-weight:600;
+	font-style:normal;
+	line-height:36px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+
+@mixin typography-h-4-mobile {
+	font-size:1.5rem;
+	font-family:"Lato";
+	font-weight:600;
+	font-style:normal;
+	line-height:32px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-5-desktop {
+	font-size:1.5rem;
+	font-family:"Lato";
+	font-weight:600;
+	font-style:normal;
+	line-height:32px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-h-5-mobile {
+	font-size:1.25rem;
+	font-family:"Lato";
+	font-weight:600;
+	font-style:normal;
+	line-height:28px;
+	letter-spacing:0.01em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-l-desktop {
+	font-size:1.125rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:30px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-l-mobile {
+	font-size:1rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:26px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-m-desktop {
+	font-size:1rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:26px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-m-mobile {
+	font-size:0.875rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:24px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-s-desktop {
+	font-size:0.875rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:22px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-s-mobile {
+	font-size:0.75rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:22px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-xs-desktop {
+	font-size:0.75rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:20px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-paragraph-xs-mobile {
+	font-size:0.688rem;
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	line-height:16px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-icon-s-light {
+	font-size:0.75rem;
+	font-family:"Font Awesome 6 Pro";
+	font-weight:300;
+	font-style:normal;
+	line-height:16px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+@mixin typography-icon-s-regular {
+	font-size:0.75rem;
+	font-family:"Font Awesome 6 Pro";
+	font-weight:400;
+	font-style:normal;
+	line-height:16px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+@mixin typography-icon-s-solid {
+	font-size:0.75rem;
+	font-family:"Font Awesome 6 Pro";
+	line-height:16px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+@mixin typography-icon-m-light {
+	font-size:1rem;
+	font-family:"Font Awesome 6 Pro";
+	font-weight:300;
+	font-style:normal;
+	line-height:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+@mixin typography-icon-m-regular {
+	font-size:1rem;
+	font-family:"Font Awesome 6 Pro";
+	font-weight:400;
+	font-style:normal;
+	line-height:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+@mixin typography-icon-m-solid {
+	font-size:1rem;
+	font-family:"Font Awesome 6 Pro";
+	line-height:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+@mixin typography-icon-l-light {
+	font-size:1.25rem;
+	font-family:"Font Awesome 6 Pro";
+	font-weight:300;
+	font-style:normal;
+	line-height:24px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-icon-l-regular {
+	font-size:1.25rem;
+	font-family:"Font Awesome 6 Pro";
+	font-weight:400;
+	font-style:normal;
+	line-height:24px;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin typography-icon-l-solid {
+	font-size:1.25rem;
+	font-family:"Font Awesome 6 Pro";
+	line-height:24px;
+	text-decoration:none;
+	text-transform:none;
+}
+
+
+
+// Box Shadows
+@mixin effect-style-shadow-xs {
+	box-shadow:0px 1px 2px rgba(16,24,40,0.050);
+}
+@mixin effect-style-shadow-s {
+	box-shadow:0px 1px 3px rgba(16,24,40,0.100), 0px 1px 2px -1px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-s {
+	box-shadow:0px 1px 3px rgba(16,24,40,0.100), 0px 1px 2px -1px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-m {
+	box-shadow:0px 4px 6px -1px rgba(16,24,40,0.100), 0px 2px 4px -2px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-m {
+	box-shadow:0px 4px 6px -1px rgba(16,24,40,0.100), 0px 2px 4px -2px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-l {
+	box-shadow:0px 10px 15px -3px rgba(16,24,40,0.100), 0px 4px 6px -4px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-l {
+	box-shadow:0px 10px 15px -3px rgba(16,24,40,0.100), 0px 4px 6px -4px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-xl {
+	box-shadow:0px 20px 25px -5px rgba(16,24,40,0.100), 0px 8px 10px -6px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-xl {
+	box-shadow:0px 20px 25px -5px rgba(16,24,40,0.100), 0px 8px 10px -6px rgba(16,24,40,0.100);
+}
+@mixin effect-style-shadow-xxl {
+	box-shadow:0px 25px 50px -12px rgba(16,24,40,0.250);
+}

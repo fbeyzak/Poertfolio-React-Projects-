@@ -1,0 +1,19 @@
+@use "../../../assets/styles/All.scss" as s;
+
+
+.container {
+     @include s.primary_active;
+     & > div {
+        width: 100%;
+        height: 100%;
+     }
+
+     width: auto;
+     height: auto;
+}
+
+.wrapContent {
+    width: max-content;
+    color: red;
+}
+

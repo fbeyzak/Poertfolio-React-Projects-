@@ -1,0 +1,41 @@
+@use "./Variables.scss" as v ;
+
+
+@mixin box(  $base_color , $backdrop_color , $text_color ){
+
+         
+        .solid {
+            background-color: $base_color;
+            color: $text_color;
+        }
+    
+        .backdrop {
+
+            background-color: $backdrop_color;
+            color: $base_color;   
+        }
+    
+         .outlined {
+    
+            background-color: transparent;
+            color: $base_color; 
+            border: v.$border-width-default solid $base_color;
+        } 
+        
+    
+         .plain {
+            background-color: transparent;
+            color: $base_color; 
+        } 
+    }
+   
+
+
+@mixin primary_box(){
+
+    .primary{
+        width: 100%;
+        height: 100%;
+    }
+    @include box( v.$color-swatch-primary , v.$color-primary-shades-050 , v.$color-on-primary)
+}

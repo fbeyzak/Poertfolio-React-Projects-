@@ -1,0 +1,85 @@
+@use "./Variables.scss" as v ;
+
+@mixin primary_active{
+
+    
+    .solid {
+        background-color: v.$color-primary-states-default;
+        color: v.$color-on-primary;
+
+        &:hover{
+            background-color: v.$color-primary-states-hover;
+        }
+        &:focus{
+            background-color: v.$color-primary-states-focus;
+        }
+
+        &:disabled{
+            background-color: v.$color-primary-states-disabled;
+            color: v.$color-text-disabled;
+        }
+
+        }
+
+    .backdrop {
+
+        background-color: v.$color-primary-shades-050;
+        color: v.$color-primary-states-default; 
+        
+        &:hover{
+            background-color: v.$color-primary-shades-100;
+        }
+        &:focus{
+            
+            background-color: v.$color-primary-shades-200;
+            
+        }
+
+        &:disabled{
+            background-color: v.$color-primary-states-disabled;
+            color: v.$color-text-disabled;
+        }
+    }
+
+    .outlined {
+
+        background-color: transparent;
+        color: v.$color-primary-states-default; 
+        border: v.$border-width-default solid v.$color-primary-states-default ;
+        
+        &:hover{
+            color: v.$color-primary-states-hover;
+            border: v.$border-width-default solid v.$color-primary-states-hover ;
+        }
+        &:focus{
+            
+                color: v.$color-primary-states-focus;
+                border: v.$border-width-default solid v.$color-primary-states-focus ;
+            
+        }
+
+        &:disabled{
+            color: v.$color-primary-states-disabled;
+            border: v.$border-width-default solid v.$color-primary-states-disabled ;
+        }
+    } 
+    
+
+     .plain {
+
+        background-color: transparent;
+        color: v.$color-primary-states-default; 
+        &:hover{
+            color: v.$color-primary-states-hover;
+        }
+        &:focus{
+            
+                color: v.$color-primary-states-focus;
+            
+        }
+
+        &:disabled{
+            color: v.$color-primary-states-disabled;
+        }
+    } 
+}

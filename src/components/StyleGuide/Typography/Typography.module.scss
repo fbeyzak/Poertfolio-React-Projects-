@@ -1,0 +1,160 @@
+@use "../../../assets/styles/All.scss" as s;
+
+
+
+.dc {
+    color: inherit;
+}
+.s{
+    color: red;
+}
+.primary{
+    color: s.$color-text-default;
+
+}
+
+.secondary{
+    color: s.$color-text-secondary;
+
+}
+.territary{
+    color: s.$color-text-territary;
+
+}
+
+.display{
+    color: s.$color-text-disabled;
+
+}
+
+.display{
+
+    @include s.desktop{
+
+        @include s.typography-display-desktop 
+    }
+
+    @include s.mobile{
+        @include s.typography-display-mobile
+    }
+
+}
+
+.h1{
+
+    @include s.desktop{
+
+        @include s.typography-h-1-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-h-1-mobile
+    }
+
+}
+
+.h2{
+
+    @include s.desktop{
+
+        @include s.typography-h-2-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-h-2-mobile
+    }
+
+}
+
+.h3{
+
+    @include s.desktop{
+
+        @include s.typography-h-3-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-h-3-mobile
+    }
+
+}
+
+.h4{
+
+    @include s.desktop{
+
+        @include s.typography-h-4-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-h-4-mobile
+    }
+
+}
+
+.h5{
+
+    @include s.desktop{
+
+        @include s.typography-h-5-desktop
+        
+    }
+
+    @include s.mobile{
+        @include s.typography-h-5-mobile
+    }
+
+}
+
+.p_large{
+
+    @include s.desktop{
+
+        @include s.typography-paragraph-l-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-paragraph-l-mobile
+    }
+
+}
+
+.p_medium{
+
+    @include s.desktop{
+
+        @include s.typography-paragraph-m-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-paragraph-m-mobile
+    }
+
+}
+
+.p_small{
+
+    @include s.desktop{
+
+        @include s.typography-paragraph-s-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-paragraph-s-mobile
+    }
+
+}
+
+.p_xSmall{
+
+    @include s.desktop{
+
+        @include s.typography-paragraph-xs-desktop
+    }
+
+    @include s.mobile{
+        @include s.typography-paragraph-xs-mobile
+    }
+
+}
+

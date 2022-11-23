@@ -1,0 +1,19 @@
+@use "../../assets/styles/All" as s;
+.pageHeading{
+    width: 100%;
+    padding: 16px 24px;
+    background-color: s.$color-neutral-shades-050 ;
+    border-bottom: 1px solid s.$color-neutral-shades-200;
+    position: sticky;
+    top: 0;
+    @include s.flex(flex-start , center , 16px ,  row);
+
+    svg {
+            height: 2rem;
+            width: auto;
+            color : s.$color-swatch-primary;
+    }
+
+
+    z-index: 500;
+}

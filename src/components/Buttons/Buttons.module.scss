@@ -1,0 +1,80 @@
+@use "../../assets/styles/All" as s;
+
+.sortByButton {
+    padding: 8px 16px;
+    @include s.flex(center, center, 8px , row);
+
+    width: max-content;
+}
+
+
+
+.dropdown {
+    width: 70%;
+    border: 1px solid s.$color-neutral-shades-400;
+    position: absolute;
+    margin-top: 16px;
+    right: 0;
+    z-index: 300;
+    background-color: s.$color-neutral-shades-050;
+
+}
+
+.dropdownItem {
+    padding: 8px 16px;
+    border-bottom: s.$color-neutral-shades-400;
+
+    &:hover {
+        background-color: s.$color-neutral-shades-200;
+    }
+}
+
+.iconCTA {
+    @include s.flex();
+    background-color: transparent;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    height: max-content;
+    width: max-content;
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 700;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+
+        svg{
+            box-sizing: content-box;
+            height: 1.5rem;
+            width: auto;
+            padding: 16px;
+        }
+}
+
+.deleteButton {
+    background-color: s.$color-swatch-error;
+    padding: 8px;
+
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 1px;
+    
+    display: none;
+    transition: display 2s;
+
+    *{
+        color:  s.$color-on-error !important;
+        height: 1rem !important;
+        width: 1rem !important;
+    } 
+
+    &:hover{
+        background-color: s.$color-error-states-hover ;
+    }
+}
+
+div:hover > .deleteButton{
+     display: block;
+}
